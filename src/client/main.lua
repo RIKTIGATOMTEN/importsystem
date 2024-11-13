@@ -5,4 +5,4 @@ if resourceName ~= "rxz_importsystem" then
     return
 end
 
-print("^2[INFO] rxz_importsystem laddad korrekt!^7")
+print("^2[INFO] importsystem laddad korrekt!^7")
