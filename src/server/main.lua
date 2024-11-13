@@ -67,7 +67,7 @@ RegisterCommand('geimport', function(source, args)
                     local discord_webhook = Config.Webhook
                     if discord_webhook and discord_webhook ~= "" then
                         PerformHttpRequest(discord_webhook, function(err, text, headers) end, 'POST', json.encode({
-                            username = "Rxz /Rozh",
+                            username = "wT/development",
                             embeds = {{
                                 ["color"] = 800080,  -- Green color
                                 ["title"] = "Kommando som används: /geimport",
